@@ -1,0 +1,10 @@
+{
+  "_说明": "AI 指令润色用的 OpenAI 兼容配置；放到 ComfyUI/user/default/ai_text_config.json（bsk_UI 的 BSK_AIText 读这个文件）",
+  "provider": "deepseek",
+  "api_key": "sk-你的key",
+  "base_url": "https://api.deepseek.com",
+  "model": "deepseek-flash",
+  "temperature": 0.4,
+  "max_tokens": 4096,
+  "vision": "on"
+}
